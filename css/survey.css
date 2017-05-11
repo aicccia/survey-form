@@ -1,0 +1,95 @@
+html {
+  font-size: 12px; }
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #a9d7d1;
+  text-align: center;
+  min-width: 320px; }
+
+input[type="checkbox"], input[type="radio"] {
+  float: left;
+  margin-right: 5px; }
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 20px; }
+
+#form-outer {
+  background-color: #fafafa;
+  margin: 0 auto;
+  border-radius: 4px;
+  width: 75%;
+  max-width: 900px;
+  padding: 20px 10px 10px 10px; }
+  #form-outer #description {
+    font-size: 1.2rem;
+    margin-bottom: 10px; }
+
+.labels {
+  display: inline-block;
+  text-align: right;
+  width: 42%;
+  height: 20px;
+  padding: 5px;
+  vertical-align: middle;
+  margin-top: 10px;
+  font-size: 1rem; }
+
+.rightTab {
+  display: inline-block;
+  text-align: left;
+  width: 46%;
+  vertical-align: middle;
+  font-size: 1rem; }
+  .rightTab li {
+    height: 1.6rem;
+    line-height: 1.6rem;
+    width: 50%;
+    min-width: 170px;
+    text-align: left; }
+  .rightTab .input-field {
+    height: 20px;
+    width: 50%;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px; }
+  .rightTab .dropdown {
+    height: 35px;
+    width: 54%;
+    padding: 5px;
+    margin: 15px 10px 10px 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+    font-size: 1rem; }
+
+#submit {
+  background-color: #59ace0;
+  border-radius: 4px;
+  color: white;
+  font-size: 1em;
+  height: 40px;
+  width: 96px;
+  margin: 10px;
+  border: 0 solid; }
+
+@media only screen and (max-width: 1000px) {
+  .rowTab {
+    width: 80%;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto; }
+  .labels {
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 2rem; }
+  .rightTab {
+    text-align: center;
+    width: 100%; }
+  li {
+    margin-left: auto;
+    margin-right: auto; } }
